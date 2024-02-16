@@ -28,7 +28,7 @@
 54C:\Users\user\Desktop\britlex-2\node_modules\@mischnic133525764708215566 1
 76C:\Users\user\Desktop\britlex-2\node_modules\css-tree\lib\tokenizer\utils.js133525764887059752 0
 74C:\Users\user\Desktop\britlex-2\node_modules\svgo\plugins\removeDoctype.js133525764843606816 0
-36C:\Users\user\Desktop\britlex-2\dist133525794750959153 1
+36C:\Users\user\Desktop\britlex-2\dist133525802797467511 1
 92C:\Users\user\Desktop\britlex-2\node_modules\@parcel\resolver-default\lib\DefaultResolver.js133525764757786409 0
 87C:\Users\user\Desktop\britlex-2\node_modules\utility-types\dist\aliases-and-guards.d.ts133525764816721662 0
 62C:\Users\user\Desktop\britlex-2\node_modules\lmdb\dependencies133525764881983329 1
@@ -119,7 +119,7 @@
 64C:\Users\user\Desktop\britlex-2\node_modules\merge2\package.json133525764759631488 0
 54C:\Users\user\Desktop\britlex-2\node_modules\path-type133525764769831658 1
 69C:\Users\user\Desktop\britlex-2\node_modules\@lezer\lr\dist\index.cjs133525764761496490 0
-51C:\Users\user\Desktop\britlex-2\src\sass\components133525789150888802 1
+51C:\Users\user\Desktop\britlex-2\src\sass\components133525801616113336 1
 79C:\Users\user\Desktop\britlex-2\node_modules\@parcel\markdown-ansi\package.json133525764774500853 0
 90C:\Users\user\Desktop\britlex-2\node_modules\css-tree\lib\syntax\node\AttributeSelector.js133525764794736957 0
 74C:\Users\user\Desktop\britlex-2\node_modules\weak-lru-cache\LRFUExpirer.js133525764768700689 0
@@ -150,7 +150,7 @@
 53C:\Users\user\Desktop\britlex-2\node_modules\anymatch133525764770321599 1
 41C:\Users\user\Desktop\britlex-2\README.md133525764407827992 0
 104C:\Users\user\Desktop\britlex-2\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.1133525764826788141 0
-64C:\Users\user\Desktop\britlex-2\src\sass\components\_header.scss133525782532795992 0
+64C:\Users\user\Desktop\britlex-2\src\sass\components\_header.scss133525801616093379 0
 71C:\Users\user\Desktop\britlex-2\node_modules\yaml\browser\types\omap.js133525764815325386 0
 54C:\Users\user\Desktop\britlex-2\src\images\webinar.svg133525764408211961 0
 77C:\Users\user\Desktop\britlex-2\node_modules\@nodelib\fs.scandir\package.json133525764812722350 0
@@ -192,7 +192,7 @@
 55C:\Users\user\Desktop\britlex-2\src\partials\about.html133525764408311703 0
 71C:\Users\user\Desktop\britlex-2\node_modules\@parcel\markdown-ansi\test133525764769651014 1
 64C:\Users\user\Desktop\britlex-2\node_modules\glob-parent\LICENSE133525764753585748 0
-40C:\Users\user\Desktop\britlex-2\src\sass133525765112943147 1
+40C:\Users\user\Desktop\britlex-2\src\sass133525801616133283 1
 96C:\Users\user\Desktop\britlex-2\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_drop.c133525764839291960 0
 77C:\Users\user\Desktop\britlex-2\node_modules\@swc\helpers\lib\_ts_decorate.js133525764872316381 0
 82C:\Users\user\Desktop\britlex-2\node_modules\@nodelib\fs.stat\out\adapters\fs.d.ts133525764811384211 0
@@ -211,11 +211,11 @@
 90C:\Users\user\Desktop\britlex-2\node_modules\abortcontroller-polyfill\dist\umd-polyfill.js133525764809014804 0
 98C:\Users\user\Desktop\britlex-2\node_modules\@parcel\runtime-js\src\helpers\browser\wasm-loader.js133525764838783314 0
 52C:\Users\user\Desktop\britlex-2\node_modules\globals133525764776500661 1
-51C:\Users\user\Desktop\britlex-2\src\sass\index.scss133525789475577968 0
+51C:\Users\user\Desktop\britlex-2\src\sass\index.scss133525801616133283 0
 79C:\Users\user\Desktop\britlex-2\node_modules\@parcel\optimizer-css\package.json133525764769561237 0
 62C:\Users\user\Desktop\britlex-2\node_modules\reusify\README.md133525764770880526 0
 46C:\Users\user\Desktop\britlex-2\src\sass\utils133525764408521156 1
-65C:\Users\user\Desktop\britlex-2\src\sass\components\_pricing.scss133525794747294914 0
+65C:\Users\user\Desktop\britlex-2\src\sass\components\_pricing.scss133525801616113336 0
 49C:\Users\user\Desktop\britlex-2\node_modules\yaml133525764851676640 1
 62C:\Users\user\Desktop\britlex-2\src\sass\components\_hero.scss133525784119039025 0
 76C:\Users\user\Desktop\britlex-2\node_modules\sass\types\legacy\function.d.ts133525764865749144 0
@@ -223,7 +223,7 @@
 60C:\Users\user\Desktop\britlex-2\src\sass\global\_common.scss133525764408461314 0
 53C:\Users\user\Desktop\britlex-2\node_modules\@nodelib133525764708933639 1
 76C:\Users\user\Desktop\britlex-2\node_modules\caniuse-lite\data\regions\EE.js133525764905798299 0
-60C:\Users\user\Desktop\britlex-2\src\sass\global\_global.scss133525771246793279 0
+60C:\Users\user\Desktop\britlex-2\src\sass\global\_global.scss133525802794507198 0
 82C:\Users\user\Desktop\britlex-2\node_modules\type-fest\source\set-return-type.d.ts133525764832702003 0
 61C:\Users\user\Desktop\britlex-2\node_modules\csso\lib\replace133525764845596708 1
 62C:\Users\user\Desktop\britlex-2\node_modules\nth-check\lib\esm133525764827572773 1
@@ -256,7 +256,7 @@
 72C:\Users\user\Desktop\britlex-2\node_modules\@parcel\workers\lib\process133525764828694925 1
 71C:\Users\user\Desktop\britlex-2\node_modules\utility-types\package.json133525764778410838 0
 80C:\Users\user\Desktop\britlex-2\node_modules\node-releases\data\release-schedule133525764771877932 1
-59C:\Users\user\Desktop\britlex-2\dist\index.b07a87f3.css.map133525794750837542 0
+59C:\Users\user\Desktop\britlex-2\dist\index.b07a87f3.css.map133525802797401122 0
 91C:\Users\user\Desktop\britlex-2\node_modules\@swc\helpers\lib\_skip_first_generator_next.js133525764855245252 0
 70C:\Users\user\Desktop\britlex-2\node_modules\utility-types\SECURITY.md133525764814357996 0
 54C:\Users\user\Desktop\britlex-2\src\partials\hero.html133525764408401539 0
@@ -4712,7 +4712,7 @@
 61C:\Users\user\Desktop\britlex-2\dist\bookshelves.40b07125.svg133525765625963522 0
 57C:\Users\user\Desktop\britlex-2\dist\britlex.9628ba51.svg133525765625953510 0
 58C:\Users\user\Desktop\britlex-2\dist\business.0c157c33.svg133525765625973460 0
-55C:\Users\user\Desktop\britlex-2\dist\index.b07a87f3.css133525794750827578 0
+55C:\Users\user\Desktop\britlex-2\dist\index.b07a87f3.css133525802797401122 0
 47C:\Users\user\Desktop\britlex-2\dist\index.html133525765625973460 0
 56C:\Users\user\Desktop\britlex-2\dist\lesson.17640722.svg133525765625963522 0
 53C:\Users\user\Desktop\britlex-2\dist\men.ad70eb85.svg133525765625973460 0
