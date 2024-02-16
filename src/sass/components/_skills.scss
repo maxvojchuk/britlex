@@ -1,7 +1,7 @@
-.skils__blocks {
+.skills__blocks {
     align-items: center;
 }
-.skils__title {
+.skills__title {
     font-weight: 600;
     font-size: 24px;
     line-height: 333%;
@@ -9,45 +9,55 @@
     text-align: center;
 
 }
-.block {
+.skills {
     background-color:$colorBackgraundPrimary ;
     border-radius: 5px;
     max-width: 290px;
 }
-.block:nth-child(1) .black__photo {
+.skill:nth-child(1) .skill__photo {
     width: 213px;
     height: 213px;
     margin: 0 auto;
 }
-.block:nth-child(2) .black__photo {
+.skill:nth-child(2) .skill__photo {
     width: 204px;
     height: 204px;
     margin: 0 auto;
 }
-.block:nth-child(3) .black__photo {
+.skill:nth-child(3) .skill__photo {
     width: 236px;
     height: 157px;
     margin: 0 auto;
 }
-.block:nth-child(4) .black__photo {
+.skill:nth-child(4) .skill__photo {
     width: 232px;
     height: 154px;
     margin: 0 auto;
 }
-.block__title {
+.skill__title {
     font-weight: 600;
     font-size: 18px;
     line-height: 444%;
     color: $colorButtonPrimary;
     padding-left: 15px;
 }
-.block__text {
+.skill__text {
     font-weight: 400;
     font-size: 13px; 
     padding-left: 15px;
     max-width: 258px;
+    margin-bottom: 35px;
 }
-.skils__blocks {
+.skill__text--first {
+    margin-bottom: 30px;
+}
+.case__button {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    color: $colorTextButton;
+}
+.skills__blocks {
     display: flex;
     gap: 20px;
     flex-direction: column;

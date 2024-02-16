@@ -24,10 +24,11 @@ img {
   color: $colorTextButton;
   font-size: 20px;
   font-weight: 500;
+  border-radius: 10px;
   background-color: $colorButtonPrimary;
 }
 .title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 24px;
   color: $colorTextSecondary;
 }
