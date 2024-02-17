@@ -1,0 +1,24 @@
+.container__hero {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.hero__title {
+  padding-top: 16px;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000;
+}
+.hero__text {
+  padding: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+.hero__button {
+  margin: 0 15px;
+
+  font-size: 16px;
+
+  text-align: center;
+}

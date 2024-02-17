@@ -11,6 +11,7 @@ body {
 .container {
   min-width: 320px;
   max-width: 1364px;
+  padding: 0px 18px;
 }
 img {
   display: block;
@@ -20,10 +21,12 @@ img {
 
 .button {
   display: inline-block;
+
   padding: 15px 51px;
   color: $colorTextButton;
   font-size: 20px;
   font-weight: 500;
+  border-radius: 10px;
   background-color: $colorButtonPrimary;
 }
 .title {
