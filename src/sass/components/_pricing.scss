@@ -1,0 +1,35 @@
+.pricing__title {
+  text-align: center;
+  padding: 49px;
+}
+.service__img {
+  padding: 0px 30px;
+}
+.service__title {
+  color: $colorButtonPrimary;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: center;
+  padding: 20px;
+}
+.service__text {
+  font-size: 13px;
+  text-align: center;
+}
+.service__number {
+  display: flex;
+  justify-content: center;
+  margin: 31px 75px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: $colorBackgroundSecondary;
+}
+.service__number-title {
+  padding-right: 5px;
+  font-size: 18px;
+  color: $colorButtonPrimary;
+}
+.service__number-text {
+  font-size: 14px;
+  color: $colorTextFortiary;
+}
