@@ -1,0 +1,39 @@
+.contact__container {
+  padding-inline: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contact__title {
+  text-align: center;
+  line-height: 333%;
+  margin-bottom: 38px;
+}
+.contact__photo {
+  margin-bottom: 38px;
+}
+.contact__text {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 31px;
+}
+.contact__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.form-contact__input {
+  border: 1px solid $colorTextPrimary;
+  border-radius: 5px;
+  width: 291px;
+  height: 50px;
+  padding-left: 26px;
+  margin-bottom: 17px;
+}
+.form-contact__button {
+  border-radius: 5px;
+  width: 290px;
+  height: 60px;
+  font-size: 14px;
+ 
+}
