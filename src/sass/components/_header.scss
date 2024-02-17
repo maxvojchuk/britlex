@@ -1,0 +1,26 @@
+.heder__container {
+  padding: 40px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__icon {
+  width: 73px;
+  height: 36px;
+  z-index: 19000;
+}
+.nav-icon__container {
+  z-index: 999;
+}
+.nav__link {
+  font-weight: 500;
+  font-size: 22px;
+  color: $colorButtonPrimary;
+}
+.header__button {
+  border: 2px solid $colorButtonPrimary;
+  background-color: transparent;
+  color: $colorButtonPrimary;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 16px 65px;
+}
