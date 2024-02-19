@@ -2,6 +2,12 @@
   padding: 57px 0;
 }
 .footer__container {
+  position: relative;
+}
+.footer__container::before {
+  position: absolute;
+  content: '';
+  width: 91%;
   height: 1px;
   background: #c4c4c4;
 }
@@ -19,5 +25,5 @@
   display: flex;
   justify-content: center;
   gap: 8px;
-padding-bottom: 46px;
+  font-size: 11px;
 }
