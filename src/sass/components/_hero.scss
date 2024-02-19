@@ -3,6 +3,11 @@
   display: flex;
   flex-direction: column;
 }
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .hero__title {
   padding-top: 16px;
   font-size: 24px;
@@ -16,7 +21,7 @@
   text-align: center;
 }
 .hero__button {
-  margin: 0 15px;
+  align-self: stretch;
   font-size: 16px;
   text-align: center;
 }
@@ -39,9 +44,43 @@
   .hero__button {
     font-size: 18px;
     padding: 24px 101px;
-    margin: 0 93px;
+    align-self: center;
   }
   .hero__poto {
     max-width: 424px;
+  }
+}
+@media (min-width: 767px) {
+  .container__hero {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+  .hero__content {
+    padding-left: 20px;
+  }
+  .hero__title {
+    font-size: 36px;
+    text-align: left;
+  }
+  .hero__title {
+    background-image: url(/src/images/lamp.svg);
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  .hero__text {
+    padding-top: 25px;
+    text-align: left;
+    padding-left: 0;
+    width: 350px;
+  }
+  .hero__button {
+    padding: 19px 67px;
+    align-self: self-start;
+    font-weight: 400;
+  }
+  .hero__poto {
+    max-width: 352px;
+    min-width: 352px;
   }
 }
