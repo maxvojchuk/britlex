@@ -24,3 +24,9 @@
   font-size: 20px;
   padding: 16px 65px;
 }
+@media (min-width: 575px) {
+  .header__icon {
+    width: 89px;
+    height: 45px;
+  }
+}

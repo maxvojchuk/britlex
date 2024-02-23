@@ -63,7 +63,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 430px;
     display: flex;
     height: 100%;
     background-color: $colorTextButton;
@@ -73,7 +73,9 @@
     row-gap: 60px;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in;
+
     padding-inline: 15px;
+
     &::before {
       content: '';
       height: 2px;
