@@ -2,9 +2,7 @@
   text-align: center;
   padding: 49px;
 }
-.service__img {
-  padding: 0px 30px;
-}
+
 .service__title {
   color: $colorButtonPrimary;
   font-size: 18px;
@@ -32,4 +30,29 @@
 .service__number-text {
   font-size: 14px;
   color: $colorTextFortiary;
+}
+@media (min-width: 575px) {
+  .container__pricing {
+    padding: 0px 100px;
+  }
+  .pricing__title {
+    font-size: 30px;
+  }
+  .service__title {
+    font-size: 24px;
+  }
+  .service__text {
+    font-size: 14px;
+  }
+  .service__number-title {
+    font-size: 22px;
+  }
+  .service__number-text {
+    font-size: 16px;
+  }
+  .service__img {
+    max-width: 291px;
+    min-height: 291px;
+    margin: 0 auto;
+  }
 }
