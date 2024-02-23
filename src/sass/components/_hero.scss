@@ -56,17 +56,28 @@
     flex-direction: row-reverse;
     gap: 20px;
   }
+  span {
+    display: block;
+  }
   .hero__content {
     padding-left: 20px;
   }
   .hero__title {
     font-size: 36px;
     text-align: left;
-  }
-  .hero__title {
-    background-image: url(/src/images/lamp.svg);
     position: relative;
+  }
+  .hero__title::after {
+    content: '';
+    width: 51px;
+    height: 51px;
+    background-image: url(/src/images/lamp.svg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
     background-repeat: no-repeat;
+    transform: rotate(45deg);
+    right: 80px;
   }
   .hero__text {
     padding-top: 25px;
