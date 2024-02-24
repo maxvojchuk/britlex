@@ -9,7 +9,7 @@
     text-align: center;
     padding-bottom: 24px;
 }
-.about__poto {
+.about__photo {
     padding-bottom: 23px;
 }
 .about__paragraf {
@@ -28,4 +28,25 @@
     font-size: 15px;
     color: $colorTextPrimary;
     text-align: center;
+}
+@media (min-width:575px) {
+    .container__about {
+        padding: 0 39px;
+    }
+    .about__title {
+        font-size: 30px;
+        line-height: 267%;
+    }
+    .about__img {
+        max-width: 352px;
+        max-height: 352px;
+        margin: 0 auto;
+    }
+    .about__statistics {
+        display: flex;
+        gap: 120px;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
