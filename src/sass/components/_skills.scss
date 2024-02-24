@@ -115,5 +115,30 @@ span {
         margin-left: 16px;
         
     }
-
+}
+@media (min-width:767px) {
+    .skills__blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap:10px 30px;
+    }
+    .skill__speaking {
+        max-height: 662px;
+        grid-row: 1/4;
+    }
+    .skill__writing,.skill__reading  {
+        max-height: 441px;
+        grid-row: 1/3;
+    }
+    .skill__listening {
+        grid-row: 2/4;
+    }
+    .skill {
+        max-width: none;
+        max-height: none;
+    }
+    .skill__text {
+        flex-grow: 0;
+    }
 }
