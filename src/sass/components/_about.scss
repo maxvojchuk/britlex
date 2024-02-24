@@ -1,0 +1,31 @@
+.container__about {
+    padding: 0 20px;
+}
+.about__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 333%;
+    color: $colorTextSecondary;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.about__poto {
+    padding-bottom: 23px;
+}
+.about__paragraf {
+    font-size: 13px;
+    text-align: center;
+    color: $colorTextPrimary;
+}
+.statistic__people {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 333%;
+    color: $colorTextTertiary;
+    text-align: center;
+}
+.statistic__text {
+    font-size: 15px;
+    color: $colorTextPrimary;
+    text-align: center;
+}
