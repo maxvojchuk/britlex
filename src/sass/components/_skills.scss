@@ -1,64 +1,69 @@
 .skills__blocks {
-    align-items: center;
+  align-items: center;
 }
 .skills__title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 333%;
-    color: $colorTextSecondary;
-    text-align: center;
-
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 333%;
+  color: $colorTextSecondary;
+  text-align: center;
 }
-.skills {
-    background-color:$colorBackgraundPrimary ;
-    border-radius: 5px;
-    max-width: 290px;
+.skill {
+  background-color: $colorBackgraundPrimary;
+  border-radius: 10px;
+  max-width: 300px;
 }
-.skill:nth-child(1) .skill__photo {
-    width: 213px;
-    height: 213px;
-    margin: 0 auto;
+.skill__photo {
+  width: 213px;
+  height: 213px;
+  margin: 0 auto;
 }
-.skill:nth-child(2) .skill__photo {
-    width: 204px;
-    height: 204px;
-    margin: 0 auto;
+.skill__writer {
+  width: 204px;
+  height: 204px;
+  margin: 0 auto;
 }
-.skill:nth-child(3) .skill__photo {
-    width: 236px;
-    height: 157px;
-    margin: 0 auto;
+.skill__book {
+  width: 236px;
+  height: 157px;
+  margin: 0 auto;
 }
-.skill:nth-child(4) .skill__photo {
-    width: 232px;
-    height: 154px;
-    margin: 0 auto;
+.skill__podcast {
+  width: 232px;
+  height: 154px;
+  margin: 0 auto;
 }
 .skill__title {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 444%;
-    color: $colorButtonPrimary;
-    padding-left: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 444%;
+  color: $colorButtonPrimary;
+  padding-left: 15px;
 }
 .skill__text {
-    font-weight: 400;
-    font-size: 13px; 
-    padding-left: 15px;
-    max-width: 258px;
-    margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 0 10px;
+  padding-bottom: 33px;
 }
-.skill__text--first {
-    margin-bottom: 30px;
+span {
+  display: block;
 }
-.case__button {
-    margin-left: 15px;
-    font-weight: 500;
-    font-size: 14px;
-    color: $colorTextButton;
+.skils__span {
+  display: block;
+  margin: 30px;
+}
+
+.skill__button {
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-bottom: 45px;
+  margin-left: 10px;
+  color: $colorTextButton;
 }
 .skills__blocks {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
 }
