@@ -11,39 +11,24 @@
 .skill {
   background-color: $colorBackgraundPrimary;
   border-radius: 10px;
-  max-width: 300px;
+  padding-left: 15px ;
 }
-.skill__photo {
-  width: 213px;
-  height: 213px;
-  margin: 0 auto;
-}
-.skill__writer {
-  width: 204px;
-  height: 204px;
-  margin: 0 auto;
-}
-.skill__book {
-  width: 236px;
-  height: 157px;
-  margin: 0 auto;
-}
-.skill__podcast {
-  width: 232px;
-  height: 154px;
-  margin: 0 auto;
-}
+
 .skill__title {
+  margin-bottom: 10px;
   font-weight: 600;
   font-size: 18px;
-  padding: 15px 10px;
   color: $colorButtonPrimary;
 }
 .skill__text {
   font-weight: 400;
   font-size: 13px;
-  padding: 0 10px;
-  padding-bottom: 33px;
+}
+.skill__text--first {
+  margin-bottom: 10px;
+}
+.skill__photo {
+  margin-bottom: 10px;
 }
 span {
   display: block;
@@ -73,16 +58,15 @@ span {
     .skills__blocks {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 30px;
-        
+        gap: 30px; 
     }
     .skills__title {
         font-size: 30px;
         line-height: 267%;
     }
     .skill {
-        max-width: 240px;
-        height: 534px;
+        flex-basis:calc((100% - 32px) / 2) ;
+        min-height: 534px;
         display: flex;
         flex-direction: column;
     }
@@ -111,9 +95,6 @@ span {
         width: 200px;
         height: 50px;
         text-align: center;
-        margin-bottom: 36px;
-        margin-left: 16px;
-        
     }
 }
 @media (min-width:767px) {
