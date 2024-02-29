@@ -33,6 +33,7 @@
   color: $colorTextFortiary;
   font-weight: 400;
   padding-top: 2px;
+  padding-top: 3px;
 }
 @media (min-width: 575px) {
   .container__pricing {
@@ -115,5 +116,64 @@
 
   .service__number {
     margin: 23px auto;
+  }
+}
+@media (min-width: 992px) {
+  .container__pricing {
+    padding: 0 25px;
+    gap: 42px;
+  }
+  .service__title {
+    font-size: 22px;
+    padding: 20px 5px 15px;
+  }
+  .service__title-personal {
+    padding-top: 4px;
+    width: 100%;
+    padding-left: 30px;
+  }
+  .service__title-lesson {
+    padding-left: 20px;
+  }
+  .service__text {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-bottom: 36px;
+  }
+  .service__text-lesson {
+    padding-left: 20px;
+  }
+  .service__text-webinar {
+    padding-left: 30px;
+  }
+  .service__number-title {
+    font-size: 24px;
+  }
+  .service__img {
+    max-width: 222px;
+    max-height: 222px;
+  }
+  .service__lesson {
+    margin-top: 30px;
+    margin-left: 0;
+    max-width: 267px;
+    max-height: 195px;
+  }
+  .service__webinar {
+    max-width: 242px;
+    max-height: 242px;
+    margin-left: 0;
+  }
+  .service__number {
+    margin: 0 5px;
+    max-width: 220px;
+    padding: 10px 20px;
+    gap: 10px;
+  }
+  .service__number-lesson {
+    margin-left: 20px;
+  }
+  .service__number-webinar {
+    margin-left: 30px;
   }
 }
