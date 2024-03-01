@@ -47,11 +47,10 @@
         gap: 120px;
         align-items: center;
         justify-content: center;
+        flex-direction: row;
     }
-
 }
 @media (min-width:767px) {
-    
     .about__title {
         font-size: 30px;
         line-height: 267%;
@@ -60,6 +59,22 @@
     .about__paragraf {
         font-size: 14px;
         text-align: left;
+        max-width: 321px;
     }
+    .container__about {
+        position: relative;
+    }
+    .about__img {
+        position: absolute;
+        right: 30;
+        top: 2;
+    }
+    .about__statistics {
+        gap: 72px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+
 
 }
