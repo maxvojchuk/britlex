@@ -126,10 +126,11 @@
     max-height: 460px;
   }
 }
-@media (min-width: 1364px) {
+@media (min-width: 1600px) {
   .container__hero {
-    gap: 100px;
-    padding: 0 120px;
+    gap: 115px;
+    margin: 0 120px;
+    padding: 0 0;
   }
   .hero__title {
     font-size: 64px;
@@ -139,6 +140,9 @@
     font-size: 24px;
     width: 540px;
     padding-bottom: 90px;
+  }
+  .hero__content {
+    max-width: 574px;
   }
   .hero__span {
     display: none;
