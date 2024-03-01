@@ -109,7 +109,7 @@
     color: $colorButtonPrimary;
   }
 }
-@media (min-width: 567px) {
+@media (max-width: 567px) {
   .header__menu::before {
     width: 95%;
   }
