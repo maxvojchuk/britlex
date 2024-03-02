@@ -7,10 +7,10 @@
     line-height: 333%;
     color: $colorTextSecondary;
     text-align: center;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 .about__photo {
-    padding-bottom: 23px;
+    margin-bottom: 23px;
 }
 .about__paragraf {
     font-size: 13px;
@@ -55,6 +55,7 @@
         font-size: 30px;
         line-height: 267%;
         text-align: left;
+        margin-bottom: 20px;
     }
     .about__paragraf {
         font-size: 14px;
@@ -70,11 +71,8 @@
         top: 2;
     }
     .about__statistics {
-        gap: 72px;
+        gap: 50px;
         align-items: flex-start;
         justify-content: flex-start;
     }
-
-
-
 }
