@@ -76,3 +76,17 @@
         justify-content: flex-start;
     }
 }
+@media (min-width:992px) {
+    .about__title {
+        font-size: 36px;
+        line-height: 222%;
+    }
+    .about__paragraf {
+        font-size: 16px;
+        max-width: 530px;
+    }
+    .about__statistics {
+        gap: 60px;
+    }
+
+}
