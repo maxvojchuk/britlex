@@ -67,37 +67,41 @@ span {
         min-height: 534px;
         display: flex;
         flex-direction: column;
+        padding-bottom: 36px;
+        padding-left: 15px;
     }
     .skill__photo {
-        max-width: 185px;
-        max-height: 185px;
+        // max-width: 185px;
+        // max-height: 185px;
         margin: 0 9px;
     }
     .skill__writer {
-        width: 182px;
-        height: 182px;
+        max-width: 182px;
+        max-height: 182px;
     }
     .skill__book {
-        width: 198px;
-        height: 132px;
+        max-width: 198px;
+        max-height: 132px;
     }
     .skill__podcast {
-        width: 206px;
-        height: 137px;
+        max-width: 206px;
+        max-height: 137px;
     }
     .skill__text {
-        padding-bottom: 25px;
+        margin-bottom: 25px;
         flex-grow: 1;
     }
     .skill__button {
-        width: 200px;
-        height: 50px;
+        padding: 14px 54px;
+        align-self: flex-start;
         text-align: center;
     }
 }
 @media (min-width:767px) {
     .skill {
         min-height: auto;
+        padding-bottom: 27px;
+        padding-left: 16px;
      }
     .skills__blocks {
         display: grid;
@@ -135,4 +139,46 @@ span {
     .skill__text {
         flex-grow: 1;
     }
+}
+@media (min-width:992px) {
+  .skill--speaking {
+    padding-bottom: 52px;
+    padding-left: 28px;
+}
+.skill--writing,.skill--reading  {
+    padding-bottom: 30px;
+    padding-left: 27px;
+}
+.skill--listening {
+    padding-bottom: 34px;
+    padding-left: 29px;
+}
+  .skill__writer {
+    align-self: flex-end;
+    max-width: 205px;
+    max-height: 205px;
+  }
+.skill__book {
+    max-width: 243px;
+    max-height: 162px;
+}
+.skill__podcast {
+    max-width: 254px;
+    max-height: 169px;
+}
+.skill__content {
+  flex-basis: 290px;
+}
+  .skill__title {
+    font-size: 22px;
+    line-height: 364%;
+  } 
+  .skill__text {
+    font-size: 14px;
+  }
+  .skill__button {
+    font-size: 18px;
+    height: 57px;
+  }
+
 }
