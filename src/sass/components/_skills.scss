@@ -182,3 +182,40 @@ span {
   }
 
 }
+@media (min-width:1600px) {
+  .skill--speaking {
+    padding-bottom: 92px;
+    padding-left: 43px;
+}
+.skill--writing,.skill--reading  {
+    padding-bottom: 44px;
+    padding-left: 41px;
+}
+.skill--listening {
+    padding-bottom: 68px;
+    padding-left: 44px;
+}
+.skill__writer {
+  max-width: 293px;
+  max-height: 293px;
+}
+.skill__book {
+  max-width: 371px;
+  max-height: 247px;
+}
+.skill__podcast {
+  max-width: 382px;
+  max-height: 255px;
+}
+.skill__content {
+  flex-basis: 330px;
+}
+.skill__title {
+  font-size: 30px;
+line-height: 267%;
+} 
+.skill__text {
+  font-size: 16px;
+}
+
+}
