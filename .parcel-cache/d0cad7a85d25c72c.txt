@@ -22,7 +22,7 @@
 77C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\transformer-svg\lib133522346473338672 1
 67C:\Users\degenerat\Downloads\britlex\node_modules\nan\nan_private.h133522346486072747 0
 81C:\Users\degenerat\Downloads\britlex\node_modules\lmdb\dependencies\lz4\lib\lz4.c133522346503323220 0
-41C:\Users\degenerat\Downloads\britlex\dist133540416032772473 1
+41C:\Users\degenerat\Downloads\britlex\dist133540528589878688 1
 91C:\Users\degenerat\Downloads\britlex\node_modules\@nodelib\fs.scandir\out\providers\sync.js133522346480755572 0
 74C:\Users\degenerat\Downloads\britlex\node_modules\weak-lru-cache\README.md133522346471499726 0
 100C:\Users\degenerat\Downloads\britlex\node_modules\@swc\helpers\src\_class_private_field_loose_key.js133522346526445619 0
@@ -81,7 +81,7 @@
 103C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\runtime-js\lib\helpers\browser\wasm-loader.js133522346503323220 0
 54C:\Users\degenerat\Downloads\britlex\node_modules\sass133522346520422995 1
 99C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\runtime-js\src\helpers\node\css-loader.js133522346484298662 0
-69C:\Users\degenerat\Downloads\britlex\src\sass\components\_footer.scss133540415872401126 0
+69C:\Users\degenerat\Downloads\britlex\src\sass\components\_footer.scss133540528634445098 0
 68C:\Users\degenerat\Downloads\britlex\node_modules\picocolors\LICENSE133522346436949486 0
 83C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\runtime-react-refresh\lib133522346454525544 1
 56C:\Users\degenerat\Downloads\britlex\src\sass\components133537883522694440 1
@@ -173,7 +173,7 @@
 65C:\Users\degenerat\Downloads\britlex\src\sass\global\_common.scss133522265835439016 0
 80C:\Users\degenerat\Downloads\britlex\node_modules\svgo\plugins\removeUnusedNS.js133522346516805078 0
 64C:\Users\degenerat\Downloads\britlex\node_modules\tslib\tslib.js133522346460267460 0
-65C:\Users\degenerat\Downloads\britlex\src\sass\global\_global.scss133528461359103264 0
+65C:\Users\degenerat\Downloads\britlex\src\sass\global\_global.scss133540490804175635 0
 90C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\decorators.js133522346536537486 0
 81C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\regions\EE.js133522346537377034 0
 106C:\Users\degenerat\Downloads\britlex\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV4\files133522346511997825 1
@@ -182,7 +182,7 @@
 123C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\foo.js133522346496314107 0
 106C:\Users\degenerat\Downloads\britlex\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV2\files133522346510348767 1
 102C:\Users\degenerat\Downloads\britlex\node_modules\@jridgewell\sourcemap-codec\dist\sourcemap-codec.mjs133522346477126709 0
-70C:\Users\degenerat\Downloads\britlex\src\sass\components\_contact.scss133540413235334216 0
+70C:\Users\degenerat\Downloads\britlex\src\sass\components\_contact.scss133540528499161246 0
 69C:\Users\degenerat\Downloads\britlex\src\sass\components\_header.scss133528331366502399 0
 77C:\Users\degenerat\Downloads\britlex\node_modules\svgo\plugins\_transforms.js133522346472169371 0
 79C:\Users\degenerat\Downloads\britlex\node_modules\ordered-binary\dist\index.cjs133522346446509143 0
@@ -200,7 +200,7 @@
 83C:\Users\degenerat\Downloads\britlex\node_modules\htmlparser2\lib\WritableStream.js133522346470175009 0
 60C:\Users\degenerat\Downloads\britlex\src\partials\about.html133522265835299084 0
 86C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\optimizer-image\package.json133522346470514808 0
-62C:\Users\degenerat\Downloads\britlex\src\partials\contact.html133537940504055829 0
+62C:\Users\degenerat\Downloads\britlex\src\partials\contact.html133540485236331116 0
 96C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\css-text-justify.js133522346535193056 0
 81C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\regions\CM.js133522346526455618 0
 80C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\watcher\src\Watcher.cc133522346482724449 0
@@ -212,7 +212,7 @@
 95C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\transformer-css\lib\CSSTransformer.js133522346472009433 0
 87C:\Users\degenerat\Downloads\britlex\node_modules\type-fest\source\merge-exclusive.d.ts133522346491139841 0
 72C:\Users\degenerat\Downloads\britlex\node_modules\css-tree\lib\generator133522346528334539 1
-61C:\Users\degenerat\Downloads\britlex\src\partials\footer.html133537883522664433 0
+61C:\Users\degenerat\Downloads\britlex\src\partials\footer.html133540528587015640 0
 62C:\Users\degenerat\Downloads\britlex\src\images\typewriter.svg133522265835209157 0
 87C:\Users\degenerat\Downloads\britlex\node_modules\utility-types\dist\utility-types.d.ts133522346489420825 0
 85C:\Users\degenerat\Downloads\britlex\node_modules\utility-types\dist\utility-types.js133522346461522408 0
@@ -424,7 +424,7 @@
 81C:\Users\degenerat\Downloads\britlex\node_modules\nan\nan_converters_pre_43_inl.h133522346459068141 0
 60C:\Users\degenerat\Downloads\britlex\node_modules\css-select133522346494507921 1
 135C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\subfolder1133522346521902146 1
-59C:\Users\degenerat\Downloads\britlex\dist\index.975ef6c8.js133534437365080007 0
+59C:\Users\degenerat\Downloads\britlex\dist\index.975ef6c8.js133540527074169539 0
 90C:\Users\degenerat\Downloads\britlex\node_modules\utility-types\dist\aliases-and-guards.js133522346444215327 0
 58C:\Users\degenerat\Downloads\britlex\node_modules\css-tree133522346530933052 1
 93C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\core\test\fixtures\config\.parcelrc133522346480905491 0
@@ -492,7 +492,7 @@
 70C:\Users\degenerat\Downloads\britlex\node_modules\source-map\README.md133522346447618480 0
 94C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\object-entries.js133522346553012699 0
 70C:\Users\degenerat\Downloads\britlex\node_modules\escape-string-regexp133522346451927030 1
-60C:\Users\degenerat\Downloads\britlex\dist\world.793bf5f7.svg133534437365809588 0
+60C:\Users\degenerat\Downloads\britlex\dist\world.793bf5f7.svg133540527074985179 0
 89C:\Users\degenerat\Downloads\britlex\node_modules\type-fest\source\async-return-type.d.ts133522346462132096 0
 87C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\reporter-cli\src\logLevels.js133522346490000492 0
 73C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\fs\src\index.js133522346478825735 0
@@ -1080,7 +1080,7 @@
 92C:\Users\degenerat\Downloads\britlex\node_modules\utility-types\dist\aliases-and-guards.d.ts133522346485782913 0
 78C:\Users\degenerat\Downloads\britlex\node_modules\source-map\lib\quick-sort.js133522346478286048 0
 91C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\css-filters.js133522346532074859 0
-63C:\Users\degenerat\Downloads\britlex\dist\index.975ef6c8.js.map133534437365369868 0
+63C:\Users\degenerat\Downloads\britlex\dist\index.975ef6c8.js.map133540527074219516 0
 94C:\Users\degenerat\Downloads\britlex\node_modules\utility-types\dist\aliases-and-guards.js.map133522346470014870 0
 85C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\regions\alt-an.js133522346488311479 0
 70C:\Users\degenerat\Downloads\britlex\node_modules\htmlnano\LICENSE.txt133522346522022078 0
@@ -2242,7 +2242,7 @@
 81C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\transformer-css\LICENSE133522346466459624 0
 107C:\Users\degenerat\Downloads\britlex\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest2.c133522346520363035 0
 69C:\Users\degenerat\Downloads\britlex\node_modules\json5\lib\util.d.ts133522346494278073 0
-63C:\Users\degenerat\Downloads\britlex\dist\business.0c157c33.svg133534437365809588 0
+63C:\Users\degenerat\Downloads\britlex\dist\business.0c157c33.svg133540527074995174 0
 86C:\Users\degenerat\Downloads\britlex\node_modules\css-tree\lib\syntax\node\Function.js133522346513866765 0
 98C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\css-default-pseudo.js133522346531215333 0
 96C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\package-manager\src\JSONParseStream.js133522346496444028 0
@@ -2289,7 +2289,7 @@
 98C:\Users\degenerat\Downloads\britlex\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\tooltag133522346490400267 0
 76C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\types\package.json133522346468833388 0
 95C:\Users\degenerat\Downloads\britlex\node_modules\@swc\helpers\lib\_class_private_method_get.js133522346496154192 0
-58C:\Users\degenerat\Downloads\britlex\dist\men.ad70eb85.svg133534437365819583 0
+58C:\Users\degenerat\Downloads\britlex\dist\men.ad70eb85.svg133540527075005167 0
 132C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\b133522346511668046 1
 75C:\Users\degenerat\Downloads\britlex\node_modules\lines-and-columns\LICENSE133522346436979479 0
 81C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\regions\MD.js133522346549149556 0
@@ -3512,7 +3512,7 @@
 102C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\getelementsbyclassname.js133522346540565187 0
 95C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\getrandomvalues.js133522346540585176 0
 89C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\gyroscope.js133522346541094870 0
-61C:\Users\degenerat\Downloads\britlex\dist\shared.5aa3f785.svg133534437365809588 0
+61C:\Users\degenerat\Downloads\britlex\dist\shared.5aa3f785.svg133540527074995174 0
 90C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\hashchange.js133522346541134848 0
 85C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\proxy.js133522346554492078 0
 84C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\hevc.js133522346541194814 0
@@ -3705,7 +3705,7 @@
 64C:\Users\degenerat\Downloads\britlex\node_modules\.bin\json5.ps1133522346569292297 0
 71C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\hash\index.js133522346466389666 0
 94C:\Users\degenerat\Downloads\britlex\node_modules\caniuse-lite\data\features\xml-serializer.js133522346560484725 0
-64C:\Users\degenerat\Downloads\britlex\dist\index.b07a87f3.css.map133540416032762480 0
+64C:\Users\degenerat\Downloads\britlex\dist\index.b07a87f3.css.map133540527074119571 0
 70C:\Users\degenerat\Downloads\britlex\node_modules\callsites\index.d.ts133522346446679037 0
 67C:\Users\degenerat\Downloads\britlex\node_modules\callsites\license133522346455255131 0
 73C:\Users\degenerat\Downloads\britlex\node_modules\browserslist\browser.js133522346445614536 0
@@ -4437,7 +4437,7 @@
 81C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\core\src\projectPath.js133522346528344552 0
 73C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\core\src\public133522346531082963 1
 84C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\core\src\ReporterRunner.js133522346528944201 0
-62C:\Users\degenerat\Downloads\britlex\dist\britlex.9628ba51.svg133534437365809588 0
+62C:\Users\degenerat\Downloads\britlex\dist\britlex.9628ba51.svg133540527074985179 0
 75C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\core\src\requests133522346532944374 1
 84C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\core\src\RequestTracker.js133522346529254011 0
 80C:\Users\degenerat\Downloads\britlex\node_modules\@parcel\core\src\serializer.js133522346530193492 0
@@ -4716,15 +4716,15 @@
 63C:\Users\degenerat\Downloads\britlex\node_modules\.bin\svgo.ps1133522346569352271 0
 61C:\Users\degenerat\Downloads\britlex\node_modules\.bin\terser133522346569372261 0
 65C:\Users\degenerat\Downloads\britlex\node_modules\.bin\terser.ps1133522346569372261 0
-66C:\Users\degenerat\Downloads\britlex\dist\bookshelves.40b07125.svg133534437365809588 0
-59C:\Users\degenerat\Downloads\britlex\dist\index.707f265c.js133534437365080007 0
-63C:\Users\degenerat\Downloads\britlex\dist\index.707f265c.js.map133534437365369868 0
-60C:\Users\degenerat\Downloads\britlex\dist\index.b07a87f3.css133540416032502774 0
-52C:\Users\degenerat\Downloads\britlex\dist\index.html133540370851180604 0
-61C:\Users\degenerat\Downloads\britlex\dist\lesson.17640722.svg133534437365809588 0
-61C:\Users\degenerat\Downloads\britlex\dist\online.80ecce28.svg133534437365809588 0
-62C:\Users\degenerat\Downloads\britlex\dist\podcast.d9765a11.svg133534437365809588 0
-65C:\Users\degenerat\Downloads\britlex\dist\typewriter.0b2c2edf.svg133534437365809588 0
-62C:\Users\degenerat\Downloads\britlex\dist\webinar.baaa48f2.svg133534437365819583 0
+66C:\Users\degenerat\Downloads\britlex\dist\bookshelves.40b07125.svg133540527074995174 0
+59C:\Users\degenerat\Downloads\britlex\dist\index.707f265c.js133540527074119571 0
+63C:\Users\degenerat\Downloads\britlex\dist\index.707f265c.js.map133540527074119571 0
+60C:\Users\degenerat\Downloads\britlex\dist\index.b07a87f3.css133540527073919676 0
+52C:\Users\degenerat\Downloads\britlex\dist\index.html133540528589838734 0
+61C:\Users\degenerat\Downloads\britlex\dist\lesson.17640722.svg133540527075005167 0
+61C:\Users\degenerat\Downloads\britlex\dist\online.80ecce28.svg133540527074995174 0
+62C:\Users\degenerat\Downloads\britlex\dist\podcast.d9765a11.svg133540527074995174 0
+65C:\Users\degenerat\Downloads\britlex\dist\typewriter.0b2c2edf.svg133540527074995174 0
+62C:\Users\degenerat\Downloads\britlex\dist\webinar.baaa48f2.svg133540527074995174 0
 54C:\Users\degenerat\Downloads\britlex\.github\workflows133522265833060323 1
 65C:\Users\degenerat\Downloads\britlex\.github\workflows\deploy.yml133522265833060323 0
