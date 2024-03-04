@@ -8,7 +8,6 @@
   height: 1px;
   background: #c4c4c4;
   top: 0;
-  
 }
 .footer__logo {
   display: flex;
@@ -27,7 +26,6 @@
   font-size: 11px;
 }
 @media (min-width: 575px) {
-
   .footer__container {
     display: flex;
     justify-content: space-between;
@@ -37,8 +35,6 @@
   .footer__logo {
     color: $colorTextSecondary;
     font-size: 30px;
-
-    
   }
   span {
     color: #939393;
@@ -53,7 +49,6 @@
   }
 }
 @media (min-width: 767px) {
-
   .footer__link {
     font-size: 13px;
     padding-bottom: 27px;
