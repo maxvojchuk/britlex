@@ -20,7 +20,59 @@
   border: 2px solid $colorButtonPrimary;
   background-color: transparent;
   color: $colorButtonPrimary;
+  font-weight: 400;
   border-radius: 10px;
   font-size: 20px;
   padding: 16px 65px;
+}
+@media (min-width: 575px) {
+  .header__icon {
+    width: 89px;
+    height: 45px;
+  }
+}
+@media (min-width: 992px) {
+  .heder__container {
+    padding: 30px 30px;
+    justify-content: flex-start;
+    gap: 167px;
+  }
+  .header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .header__button {
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 12px 40px;
+  }
+  .nav__list {
+    display: flex;
+    gap: 30px;
+  }
+  .nav__link {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1600px) {
+  .heder__container {
+    padding: 55px 130px;
+    gap: 253px;
+  }
+  .header__icon {
+    width: 106px;
+    height: 54px;
+  }
+  .nav__list {
+    gap: 40px;
+  }
+  .nav__link {
+    font-size: 20px;
+  }
+  .header__button {
+    font-size: 24px;
+    padding: 17px 57px;
+  }
 }
