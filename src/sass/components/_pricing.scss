@@ -2,15 +2,13 @@
   text-align: center;
   padding: 49px;
 }
-.service__img {
-  padding: 0px 30px;
-}
+
 .service__title {
   color: $colorButtonPrimary;
   font-size: 18px;
   line-height: 156%;
   text-align: center;
-  padding: 20px;
+  padding: 20px 15px;
 }
 .service__text {
   font-size: 13px;
@@ -28,8 +26,213 @@
   padding-right: 5px;
   font-size: 18px;
   color: $colorButtonPrimary;
+  font-weight: 400;
 }
 .service__number-text {
   font-size: 14px;
   color: $colorTextFortiary;
+  font-weight: 400;
+  padding-top: 2px;
+  padding-top: 3px;
+}
+@media (min-width: 575px) {
+  .container__pricing {
+    padding: 0px 100px;
+  }
+  .pricing__title {
+    font-size: 30px;
+  }
+  .service__title {
+    font-size: 24px;
+  }
+  .service__text {
+    font-size: 14px;
+  }
+  .service__number-title {
+    font-size: 22px;
+  }
+  .service__number-text {
+    font-size: 16px;
+  }
+  .service__img {
+    max-width: 291px;
+    max-height: 291px;
+    margin: 0 auto;
+  }
+  .service__lesson {
+    max-width: 314px;
+    max-height: 241px;
+  }
+  .service__webinar {
+    max-width: 253px;
+    max-height: 253px;
+  }
+}
+
+@media (min-width: 767px) {
+  .container__pricing {
+    padding: 0px 25px;
+  }
+  .pricing__title {
+    font-size: 30px;
+  }
+  .pricing__services {
+    display: flex;
+    gap: 35px;
+  }
+  .service {
+    flex-basis: calc((100% - 70px) / 3);
+    display: flex;
+    flex-direction: column;
+  }
+  .service__title {
+    font-size: 20px;
+    text-align: left;
+  }
+  .service__title-personal {
+    width: 100px;
+    padding-top: 5px;
+  }
+
+  .service__text {
+    padding-bottom: 23px;
+    flex-grow: 1;
+  }
+
+  .service__img {
+    max-width: 197px;
+    max-height: 197px;
+  }
+  .service__lesson {
+    margin-top: 45px;
+    max-width: 219px;
+    max-height: 168px;
+  }
+  .service__webinar {
+    max-width: 210px;
+    max-height: 210px;
+  }
+
+  .service__text {
+    text-align: left;
+  }
+
+  .service__number {
+    margin: 23px auto;
+  }
+}
+@media (min-width: 992px) {
+  .container__pricing {
+    padding: 0 25px;
+    gap: 42px;
+  }
+  .pricing__title {
+    font-size: 36px;
+  }
+  .service__title {
+    font-size: 22px;
+    padding: 20px 5px 15px;
+  }
+  .service__title-personal {
+    padding-top: 4px;
+    width: 100%;
+    padding-left: 30px;
+  }
+  .service__title-lesson {
+    padding-left: 20px;
+  }
+  .service__text {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-bottom: 36px;
+  }
+  .service__text-lesson {
+    padding-left: 20px;
+  }
+  .service__text-webinar {
+    padding-left: 30px;
+  }
+  .service__number-title {
+    font-size: 24px;
+  }
+  .service__img {
+    max-width: 222px;
+    max-height: 222px;
+  }
+  .service__lesson {
+    margin-top: 30px;
+    margin-left: 0;
+    max-width: 267px;
+    max-height: 195px;
+  }
+  .service__webinar {
+    max-width: 242px;
+    max-height: 242px;
+    margin-left: 0;
+  }
+  .service__number {
+    margin: 0 5px;
+    max-width: 220px;
+    padding: 10px 20px;
+    gap: 10px;
+  }
+  .service__number-lesson {
+    margin-left: 20px;
+  }
+  .service__number-webinar {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 1600px) {
+  .container__pricing {
+    margin: 0 120px;
+  }
+  .pricing__services {
+    gap: 50px;
+  }
+
+  .pricing__title {
+    font-size: 48px;
+    margin: 0 auto;
+  }
+  .service__title {
+    font-size: 30px;
+  }
+  .service__title-personal {
+    padding-left: 0;
+  }
+  .service__text {
+    font-size: 20px;
+    width: 450px;
+  }
+  .service__text-webinar {
+    padding-left: 0;
+  }
+  .service__img {
+    max-width: 311px;
+    max-height: 311px;
+  }
+  .service__lesson {
+    max-width: 391px;
+    max-height: 283px;
+  }
+  .service__webinar {
+    max-width: 340px;
+    max-height: 340px;
+    margin-left: 50px;
+  }
+  .service__number {
+    padding: 10px 18px;
+    max-width: 250px;
+  }
+  .service__number-webinar {
+    margin-left: 0;
+  }
+  .service__number-title {
+    font-size: 30px;
+  }
+  .service__number-text {
+    font-size: 18px;
+    padding-top: 5px;
+  }
 }
