@@ -4,7 +4,7 @@
 .footer__container::before {
   position: absolute;
   content: '';
-  width: 91%;
+  width: 96.3%;
   height: 1px;
   background: #c4c4c4;
   top: 0;
@@ -12,12 +12,11 @@
 .footer__logo {
   display: flex;
   justify-content: center;
-  padding-top: 26px;
+  padding-top: 11px;
+  font-size: 24px;
 }
-.footer__img {
-  width: 71px;
-  height: 36px;
-  margin-bottom: 15px;
+span {
+  color: #939393;
 }
 .footer__items {
   display: flex;
@@ -36,9 +35,7 @@
     color: $colorTextSecondary;
     font-size: 30px;
   }
-  span {
-    color: #939393;
-  }
+
   .footer__items {
     display: flex;
     margin-top: 12px;
@@ -52,5 +49,19 @@
   .footer__link {
     font-size: 13px;
     padding-bottom: 27px;
+  }
+}
+@media (min-width: 992px) {
+  .footer__link {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1600px) {
+  .footer__logo {
+    font-size: 36px;
+  }
+  .footer__link {
+    font-size: 24px;
   }
 }
