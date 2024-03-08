@@ -1,6 +1,9 @@
 // .skills__blocks {
 //   align-items: center;
 // }
+.skills {
+  padding-top: 51px;
+}
 .skills__title {
   font-weight: 600;
   font-size: 24px;
@@ -21,8 +24,8 @@
   color: $colorButtonPrimary;
 }
 .skill__text {
-  font-weight: 400;
   font-size: 13px;
+  margin-bottom: 30px;
 }
 .skill__text--first {
   margin-bottom: 10px;
@@ -30,14 +33,6 @@
 .skill__photo {
   margin-bottom: 10px;
 }
-span {
-  display: block;
-}
-.skils__span {
-  display: block;
-  margin: 30px;
-}
-
 .skill__button {
   font-weight: 500;
   font-size: 14px;
