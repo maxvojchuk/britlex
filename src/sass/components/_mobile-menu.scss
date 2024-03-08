@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .btn-menu {
     display: block;
     width: 30px;
@@ -13,12 +13,7 @@
     position: relative;
   }
   .menu__btn-close {
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    right: 10;
-    top: 50;
+    display: none;
   }
   .nav__list {
     gap: 20px;
@@ -86,7 +81,7 @@
     &::before {
       content: '';
       height: 2px;
-      width: 95%;
+      width: 98%;
       background-color: #c4c4c4;
       position: absolute;
       left: 50%;
@@ -117,6 +112,17 @@
 @media (min-width: 767px) {
   .header__menu {
     width: 429px;
+  }
+  .menu__btn-close {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10;
+    top: 50;
+  }
+  .menu-open .btn-menu {
+    display: none;
   }
 
   .menu-open .header__menu::after {

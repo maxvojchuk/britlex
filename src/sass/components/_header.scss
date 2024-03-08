@@ -4,8 +4,13 @@
   justify-content: space-between;
 }
 .header__icon {
-  width: 73px;
-  height: 36px;
+  display: flex;
+  justify-content: center;
+  padding-top: 11px;
+  font-size: 24px;
+  font-weight: 400;
+  color: $colorTextSecondary;
+
   z-index: 19000;
 }
 .nav-icon__container {
@@ -38,8 +43,7 @@
 }
 @media (min-width: 575px) {
   .header__icon {
-    width: 89px;
-    height: 45px;
+    font-size: 30px;
   }
 }
 @media (min-width: 992px) {
