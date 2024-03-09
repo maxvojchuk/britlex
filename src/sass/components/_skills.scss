@@ -79,18 +79,6 @@
         // max-height: 185px;
         margin: 0 9px;
     }
-    .skill__writer {
-        max-width: 182px;
-        max-height: 182px;
-    }
-    .skill__book {
-        max-width: 198px;
-        max-height: 132px;
-    }
-    .skill__podcast {
-        max-width: 206px;
-        max-height: 137px;
-    }
     .skill__title {
       margin-bottom: 2px;
     }
@@ -132,6 +120,9 @@
       flex-basis: 220px;
       align-self: flex-end;
     }
+    .skill__writer {
+      align-self: flex-start;
+    }
     .skill__content {
       flex-basis: 250px;
     }
@@ -162,17 +153,7 @@
 }
   .skill__writer {
     align-self: flex-end;
-    max-width: 205px;
-    max-height: 205px;
   }
-.skill__book {
-    max-width: 243px;
-    max-height: 162px;
-}
-.skill__podcast {
-    max-width: 254px;
-    max-height: 169px;
-}
 .skill__content {
   flex-basis: 290px;
 }
