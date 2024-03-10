@@ -1,6 +1,7 @@
 .pricing__title {
   text-align: center;
-  padding: 49px;
+
+  line-height: 333%;
 }
 
 .service__title {
@@ -8,7 +9,7 @@
   font-size: 18px;
   line-height: 156%;
   text-align: center;
-  padding: 20px 15px;
+  margin: 20px 15px;
 }
 .service__text {
   font-size: 13px;
@@ -32,21 +33,24 @@
   font-size: 14px;
   color: $colorTextFortiary;
   font-weight: 400;
-  padding-top: 2px;
-  padding-top: 3px;
+
+  padding-top: 1px;
 }
 @media (min-width: 575px) {
-  .container__pricing {
-    padding: 0px 100px;
-  }
   .pricing__title {
     font-size: 30px;
+    line-height: 267%;
   }
   .service__title {
     font-size: 24px;
   }
   .service__text {
     font-size: 14px;
+  }
+  .service__number {
+    padding: 5 12px;
+    margin-inline: 150px;
+    width: 205px;
   }
   .service__number-title {
     font-size: 22px;
@@ -70,9 +74,6 @@
 }
 
 @media (min-width: 767px) {
-  .container__pricing {
-    padding: 0px 25px;
-  }
   .pricing__title {
     font-size: 30px;
   }
@@ -88,14 +89,16 @@
   .service__title {
     font-size: 20px;
     text-align: left;
+    margin-left: 0;
+    margin-bottom: 15px;
   }
   .service__title-personal {
     width: 100px;
-    padding-top: 5px;
+    margin-top: 5px;
   }
 
   .service__text {
-    padding-bottom: 23px;
+    margin-bottom: 23px;
     flex-grow: 1;
   }
 
@@ -172,7 +175,7 @@
   }
   .service__number {
     margin: 0 5px;
-    max-width: 220px;
+    width: 220px;
     padding: 10px 20px;
     gap: 10px;
   }
@@ -184,9 +187,6 @@
   }
 }
 @media (min-width: 1600px) {
-  .container__pricing {
-    margin: 0 120px;
-  }
   .pricing__services {
     gap: 50px;
   }
@@ -223,11 +223,9 @@
   }
   .service__number {
     padding: 10px 18px;
-    max-width: 250px;
+    width: 20px;
   }
-  .service__number-webinar {
-    margin-left: 0;
-  }
+
   .service__number-title {
     font-size: 30px;
   }
