@@ -11,7 +11,7 @@
 .skill {
   background-color: $colorBackgraundPrimary;
   border-radius: 10px;
-  padding-left: 15px ;
+  padding-left: 15px;
 }
 
 .skill__title {
@@ -30,9 +30,9 @@
 .skill__photo {
   margin-bottom: 10px;
 }
-span {
-  display: block;
-}
+// span {
+//   display: block;
+// }
 .skils__span {
   display: block;
   margin: 30px;
@@ -49,130 +49,132 @@ span {
   flex-direction: column;
   gap: 21px;
 }
-@media (min-width:575px) {
-    .skills__container {
-        margin: 0 auto;
-    }
-    .skills__blocks {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 30px; 
-    }
-    .skills__title {
-        font-size: 30px;
-        line-height: 267%;
-    }
-    .skill {
-        flex-basis:calc((100% - 32px) / 2) ;
-        min-height: 534px;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 36px;
-        padding-left: 15px;
-    }
-    .skill__photo {
-        // max-width: 185px;
-        // max-height: 185px;
-        margin: 0 9px;
-    }
-    .skill__writer {
-        max-width: 182px;
-        max-height: 182px;
-    }
-    .skill__book {
-        max-width: 198px;
-        max-height: 132px;
-    }
-    .skill__podcast {
-        max-width: 206px;
-        max-height: 137px;
-    }
-    .skill__text {
-        margin-bottom: 25px;
-        flex-grow: 1;
-    }
-    .skill__button {
-        padding: 14px 54px;
-        align-self: flex-start;
-        text-align: center;
-    }
+@media (min-width: 575px) {
+  .skills__container {
+    margin: 0 auto;
+  }
+  .skills__blocks {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .skills__title {
+    font-size: 30px;
+    line-height: 267%;
+  }
+  .skill {
+    flex-basis: calc((100% - 32px) / 2);
+    min-height: 534px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 36px;
+    padding-left: 15px;
+  }
+  .skill__photo {
+    // max-width: 185px;
+    // max-height: 185px;
+    margin: 0 9px;
+  }
+  .skill__writer {
+    max-width: 182px;
+    max-height: 182px;
+  }
+  .skill__book {
+    max-width: 198px;
+    max-height: 132px;
+  }
+  .skill__podcast {
+    max-width: 206px;
+    max-height: 137px;
+  }
+  .skill__text {
+    margin-bottom: 25px;
+    flex-grow: 1;
+  }
+  .skill__button {
+    padding: 14px 54px;
+    align-self: flex-start;
+    text-align: center;
+  }
 }
-@media (min-width:767px) {
-    .skill {
-        min-height: auto;
-        padding-bottom: 27px;
-        padding-left: 16px;
-     }
-    .skills__blocks {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-gap:10px ;
-    }
-    .skill--speaking {
-        grid-row: 1/4;
-    }
-    .skill--writing,.skill--reading  {
-        grid-row: 1/3;
-    }
-    .skill--listening {
-        grid-column: 2/4;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-    }
-    .skill__photo--listening {
-      flex-basis: 220px;
-      align-self: flex-end;
-    }
-    .skill__content {
-      flex-basis: 250px;
-    }
-    .skill__photo {
-      flex-grow: 1;
-    }
-    .skill__title {
-      font-size: 20px;
-      line-height: 400%;
-      margin-bottom: 0;
-    }
-    .skill__text {
-        flex-grow: 1;
-    }
+@media (min-width: 767px) {
+  .skill {
+    min-height: auto;
+    padding-bottom: 27px;
+    padding-left: 16px;
+  }
+  .skills__blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .skill--speaking {
+    grid-row: 1/4;
+  }
+  .skill--writing,
+  .skill--reading {
+    grid-row: 1/3;
+  }
+  .skill--listening {
+    grid-column: 2/4;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .skill__photo--listening {
+    flex-basis: 220px;
+    align-self: flex-end;
+  }
+  .skill__content {
+    flex-basis: 250px;
+  }
+  .skill__photo {
+    flex-grow: 1;
+  }
+  .skill__title {
+    font-size: 20px;
+    line-height: 400%;
+    margin-bottom: 0;
+  }
+  .skill__text {
+    flex-grow: 1;
+  }
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .skill--speaking {
     padding-bottom: 52px;
     padding-left: 28px;
-}
-.skill--writing,.skill--reading  {
+  }
+  .skill--writing,
+  .skill--reading {
     padding-bottom: 30px;
     padding-left: 27px;
-}
-.skill--listening {
+  }
+  .skill--listening {
     padding-bottom: 34px;
     padding-left: 29px;
-}
+  }
   .skill__writer {
     align-self: flex-end;
     max-width: 205px;
     max-height: 205px;
   }
-.skill__book {
+  .skill__book {
     max-width: 243px;
     max-height: 162px;
-}
-.skill__podcast {
+  }
+  .skill__podcast {
     max-width: 254px;
     max-height: 169px;
-}
-.skill__content {
-  flex-basis: 290px;
-}
+  }
+  .skill__content {
+    flex-basis: 290px;
+  }
   .skill__title {
     font-size: 22px;
     line-height: 364%;
-  } 
+  }
   .skill__text {
     font-size: 14px;
   }
@@ -180,42 +182,41 @@ span {
     font-size: 18px;
     height: 57px;
   }
-
 }
-@media (min-width:1600px) {
+@media (min-width: 1600px) {
   .skill--speaking {
     padding-bottom: 92px;
     padding-left: 43px;
-}
-.skill--writing,.skill--reading  {
+  }
+  .skill--writing,
+  .skill--reading {
     padding-bottom: 44px;
     padding-left: 41px;
-}
-.skill--listening {
+  }
+  .skill--listening {
     padding-bottom: 68px;
     padding-left: 44px;
-}
-.skill__writer {
-  max-width: 293px;
-  max-height: 293px;
-}
-.skill__book {
-  max-width: 371px;
-  max-height: 247px;
-}
-.skill__podcast {
-  max-width: 382px;
-  max-height: 255px;
-}
-.skill__content {
-  flex-basis: 330px;
-}
-.skill__title {
-  font-size: 30px;
-line-height: 267%;
-} 
-.skill__text {
-  font-size: 16px;
-}
-
+  }
+  .skill__writer {
+    max-width: 293px;
+    max-height: 293px;
+  }
+  .skill__book {
+    max-width: 371px;
+    max-height: 247px;
+  }
+  .skill__podcast {
+    max-width: 382px;
+    max-height: 255px;
+  }
+  .skill__content {
+    flex-basis: 330px;
+  }
+  .skill__title {
+    font-size: 30px;
+    line-height: 267%;
+  }
+  .skill__text {
+    font-size: 16px;
+  }
 }
