@@ -71,14 +71,13 @@
     font-size: 16px;
   }
 }
-@media (min-width: 1370px) {
+@media (min-width: 1600px) {
   .heder__container {
-    padding: 55px 130px;
+    padding: 55px;
     gap: 253px;
   }
   .header__icon {
-    width: 106px;
-    height: 54px;
+    font-size: 36px;
   }
   .nav__list {
     gap: 40px;
