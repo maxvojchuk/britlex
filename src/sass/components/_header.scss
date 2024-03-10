@@ -4,8 +4,13 @@
   justify-content: space-between;
 }
 .header__icon {
-  width: 73px;
-  height: 36px;
+  display: flex;
+  justify-content: center;
+  padding-top: 11px;
+  font-size: 24px;
+  font-weight: 400;
+  color: $colorTextSecondary;
+
   z-index: 19000;
 }
 .nav-icon__container {
@@ -38,13 +43,12 @@
 }
 @media (min-width: 575px) {
   .header__icon {
-    width: 89px;
-    height: 45px;
+    font-size: 30px;
   }
 }
 @media (min-width: 992px) {
   .heder__container {
-    padding: 30px 30px;
+    margin: 0 auto;
     justify-content: flex-start;
     gap: 167px;
   }
@@ -69,12 +73,11 @@
 }
 @media (min-width: 1600px) {
   .heder__container {
-    padding: 55px 130px;
+    padding: 55px;
     gap: 253px;
   }
   .header__icon {
-    width: 106px;
-    height: 54px;
+    font-size: 36px;
   }
   .nav__list {
     gap: 40px;
