@@ -1,3 +1,6 @@
+.pricing {
+  padding-top: 84px;
+}
 .pricing__title {
   text-align: center;
 
@@ -37,6 +40,9 @@
   padding-top: 1px;
 }
 @media (min-width: 575px) {
+  .pricing {
+    padding-top: 131px;
+  }
   .pricing__title {
     font-size: 30px;
     line-height: 267%;
@@ -74,6 +80,9 @@
 }
 
 @media (min-width: 767px) {
+  .pricing {
+    padding-top: 93px;
+  }
   .pricing__title {
     font-size: 30px;
   }
@@ -125,6 +134,9 @@
   }
 }
 @media (min-width: 992px) {
+  .pricing {
+    padding-top: 101px;
+  }
   .container__pricing {
     padding: 0 25px;
     gap: 42px;
@@ -187,6 +199,9 @@
   }
 }
 @media (min-width: 1600px) {
+  .pricing {
+    padding-top: 188px;
+  }
   .pricing__services {
     gap: 50px;
   }

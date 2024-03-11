@@ -1,3 +1,6 @@
+.hero {
+  padding-top: 36px;
+}
 .container__hero {
   display: flex;
   flex-direction: column;
@@ -26,6 +29,9 @@
   text-align: center;
 }
 @media (min-width: 575px) {
+  .hero {
+    padding-top: 21px;
+  }
   .container__hero {
     display: flex;
     flex-direction: column;
@@ -51,6 +57,9 @@
   }
 }
 @media (min-width: 767px) {
+  .hero {
+    padding-top: 60px;
+  }
   .container__hero {
     display: flex;
     flex-direction: row-reverse;
@@ -100,6 +109,9 @@
   }
 }
 @media (min-width: 992px) {
+  .hero {
+    padding-top: 83px;
+  }
   .container__hero {
     gap: 44px;
     margin: 0 auto;
@@ -134,6 +146,9 @@
   }
 }
 @media (min-width: 1370px) {
+  .hero {
+    padding-top: 100px;
+  }
   .container__hero {
     gap: 115px;
   }
