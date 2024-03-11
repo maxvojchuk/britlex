@@ -223,7 +223,11 @@
   }
   .service__number {
     padding: 10px 18px;
-    width: 20px;
+    width: 240px;
+    gap: 5px;
+  }
+  .service__number-webinar {
+    margin-left: 0px;
   }
 
   .service__number-title {
