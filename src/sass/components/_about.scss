@@ -1,5 +1,5 @@
-.container__about {
-    padding: 0 20px;
+.about {
+    padding-top: 50px;
 }
 .about__title {
     font-weight: 600;
@@ -30,8 +30,8 @@
     text-align: center;
 }
 @media (min-width:575px) {
-    .container__about {
-        padding: 0 39px;
+    .about {
+        padding-top: 84px;
     }
     .about__title {
         font-size: 30px;
@@ -52,6 +52,9 @@
     
 }
 @media (min-width:767px) {
+    .about {
+        padding-top: 52px;
+    }
     .about__title {
         font-size: 30px;
         line-height: 267%;
@@ -70,6 +73,7 @@
         position: absolute;
         right: 30;
         top: 2;
+        width: 31%;
     }
     .about__statistics {
         gap: 50px;
@@ -85,6 +89,9 @@
     }
 }
 @media (min-width:992px) {
+    .about {
+        padding-top: 106px;
+    }
     .about__title {
         font-size: 36px;
         line-height: 222%;
@@ -105,7 +112,10 @@
         font-size: 16px;
     }
 }
-@media (min-width:1600px) {
+@media (min-width:1370px) {
+    .about {
+        padding-top: 282px;
+    }
     .about__title {
         font-size: 48px;
         line-height: 167%;
