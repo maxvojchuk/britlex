@@ -1,10 +1,12 @@
 .contact {
+  padding-top: 72px;
   padding-bottom: 57px;
 }
 .contact__container {
   padding-inline: 20px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 .contact__title {
   text-align: center;
@@ -13,6 +15,7 @@
 }
 .contact__photo {
   margin-bottom: 38px;
+  align-items: center;
 }
 .contact__text {
   font-weight: 400;
@@ -22,27 +25,28 @@
 }
 .contact__form {
   display: flex;
-  align-items: center;
+
   flex-direction: column;
+  flex-grow: 1;
 }
 .form-contact__input {
   border: 1px solid $colorTextPrimary;
   border-radius: 5px;
-  width: 291px;
-  height: 50px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 26px;
   margin-bottom: 17px;
   font-size: 12px;
-  flex-grow: 1;
 }
 .form-contact__button {
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 5px;
-  width: 290px;
-  height: 60px;
   font-size: 14px;
 }
 @media (min-width: 575px) {
   .contact {
+    padding-top: 163px;
     padding-bottom: 144px;
   }
   .contact__title {
@@ -79,6 +83,7 @@
 }
 @media (min-width: 767px) {
   .contact {
+    padding-top: 94px;
     padding-bottom: 140px;
   }
   .contact__container {
@@ -94,8 +99,9 @@
     position: absolute;
     left: 26;
     top: 0;
-    width: 233px;
+    width: 31%;
     display: flex;
+    
   }
   .contact__title {
     line-height: normal;
@@ -130,6 +136,7 @@
 }
 @media (min-width: 992px) {
   .contact {
+    padding-top: 142px;
     padding-bottom: 194px;
   }
   .contact__title {
@@ -145,9 +152,8 @@
     max-width: 527px;
   }
   .contact__photo {
-    left: 13;
+    left: 0;
     top: 0;
-    width: 312px;
   }
   .contact__form {
     gap: 14px;
@@ -167,6 +173,7 @@
 }
 @media (min-width: 1600px) {
   .contact {
+    padding-top: 260px;
     padding-bottom: 220px;
   }
 
@@ -174,9 +181,8 @@
     min-width: 810px;
   }
   .contact__photo {
-    left: 112;
+    left: 0;
     top: 0;
-    width: 477px;
   }
   .contact__title {
     font-size: 48px;
@@ -188,18 +194,20 @@
     margin-bottom: 52px;
   }
   .contact__form {
+    max-width: 730px;
     gap: 12px;
   }
   .form-contact__input {
-    width: 450px;
-    height: 80px;
+    flex-grow: 1;
+    padding-top: 26px;
+    padding-bottom: 30px;
+    padding-left: 33px;
     font-size: 16px;
     padding-left: 33px;
     margin: 0;
   }
   .form-contact__button {
-    width: 264px;
-    height: 80px;
-    font-size: 16px;
+    padding: 25px;
+    font-size: 20px;
   }
 }
