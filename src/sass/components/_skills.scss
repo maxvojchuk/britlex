@@ -1,6 +1,9 @@
 // .skills__blocks {
 //   align-items: center;
 // }
+.skills {
+  padding-top: 51px;
+}
 .skills__title {
   font-weight: 600;
   font-size: 24px;
@@ -11,18 +14,20 @@
 .skill {
   background-color: $colorBackgraundPrimary;
   border-radius: 10px;
-  padding-left: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .skill__title {
   margin-bottom: 10px;
   font-weight: 600;
   font-size: 18px;
+  line-height: 444%;
   color: $colorButtonPrimary;
 }
 .skill__text {
-  font-weight: 400;
   font-size: 13px;
+  margin-bottom: 30px;
 }
 .skill__text--first {
   margin-bottom: 10px;
@@ -30,18 +35,11 @@
 .skill__photo {
   margin-bottom: 10px;
 }
-// span {
-//   display: block;
-// }
-.skils__span {
-  display: block;
-  margin: 30px;
-}
-
 .skill__button {
   font-weight: 500;
   font-size: 14px;
   border-radius: 5px;
+  margin-bottom: 44px;
   color: $colorTextButton;
 }
 .skills__blocks {
@@ -50,6 +48,9 @@
   gap: 21px;
 }
 @media (min-width: 575px) {
+  .skills {
+    padding-top: 96px;
+  }
   .skills__container {
     margin: 0 auto;
   }
@@ -68,24 +69,21 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 36px;
-    padding-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skill__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
   }
   .skill__photo {
     // max-width: 185px;
     // max-height: 185px;
     margin: 0 9px;
   }
-  .skill__writer {
-    max-width: 182px;
-    max-height: 182px;
-  }
-  .skill__book {
-    max-width: 198px;
-    max-height: 132px;
-  }
-  .skill__podcast {
-    max-width: 206px;
-    max-height: 137px;
+  .skill__title {
+    margin-bottom: 2px;
   }
   .skill__text {
     margin-bottom: 25px;
@@ -95,6 +93,7 @@
     padding: 14px 54px;
     align-self: flex-start;
     text-align: center;
+    margin-bottom: 0;
   }
 }
 @media (min-width: 767px) {
@@ -125,6 +124,9 @@
   .skill__photo--listening {
     flex-basis: 220px;
     align-self: flex-end;
+  }
+  .skill__writer {
+    align-self: flex-start;
   }
   .skill__content {
     flex-basis: 250px;
@@ -157,16 +159,6 @@
   }
   .skill__writer {
     align-self: flex-end;
-    max-width: 205px;
-    max-height: 205px;
-  }
-  .skill__book {
-    max-width: 243px;
-    max-height: 162px;
-  }
-  .skill__podcast {
-    max-width: 254px;
-    max-height: 169px;
   }
   .skill__content {
     flex-basis: 290px;
