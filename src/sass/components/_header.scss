@@ -13,6 +13,7 @@
 
   z-index: 19000;
 }
+
 .header__icon-span {
   color: #939393;
 }
@@ -51,6 +52,7 @@
 }
 @media (min-width: 992px) {
   .heder__container {
+    padding: 40px 30px;
     margin: 0 auto;
     justify-content: flex-start;
     gap: 167px;

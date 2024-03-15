@@ -114,6 +114,7 @@
   }
   .container__hero {
     gap: 44px;
+    justify-content: space-between;
     margin: 0 auto;
   }
   .hero__content {
@@ -145,7 +146,7 @@
     max-height: 460px;
   }
 }
-@media (min-width: 1370px) {
+@media (min-width: 1600px) {
   .hero {
     padding-top: 100px;
   }
