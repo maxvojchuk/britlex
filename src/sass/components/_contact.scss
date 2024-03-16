@@ -1,10 +1,12 @@
 .contact {
+  padding-top: 72px;
   padding-bottom: 57px;
 }
 .contact__container {
   padding-inline: 20px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 .contact__title {
   text-align: center;
@@ -12,7 +14,10 @@
   margin-bottom: 38px;
 }
 .contact__photo {
+  width: 79%;
+  margin: 0 auto;
   margin-bottom: 38px;
+  
 }
 .contact__text {
   font-weight: 400;
@@ -22,27 +27,28 @@
 }
 .contact__form {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  flex-grow: 1;
 }
 .form-contact__input {
   border: 1px solid $colorTextPrimary;
   border-radius: 5px;
-  width: 291px;
-  height: 50px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 26px;
   margin-bottom: 17px;
   font-size: 12px;
   flex-grow: 1;
 }
 .form-contact__button {
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 5px;
-  width: 290px;
-  height: 60px;
   font-size: 14px;
 }
 @media (min-width: 575px) {
   .contact {
+    padding-top: 163px;
     padding-bottom: 144px;
   }
   .contact__title {
@@ -52,6 +58,7 @@
   }
   .contact__photo {
     margin-bottom: 34px;
+    width: 62%;
   }
   .contact__text {
     font-size: 16px;
@@ -64,14 +71,13 @@
   .form-contact__input {
     margin: 0 auto;
     border-radius: 10px;
-    width: 511px;
-    height: 60px;
+    padding: 10px 0 10px 25px;
     font-size: 13px;
     padding-left: 25px;
   }
   .form-contact__button {
     border-radius: 10px;
-    width: 193px;
+    padding: 18px 56px 18px 56px;
     font-size: 16px;
     margin: 0;
     font-size: 16px;
@@ -79,7 +85,8 @@
 }
 @media (min-width: 767px) {
   .contact {
-    padding-bottom: 140px;
+    padding-top: 94px;
+    padding-bottom: 112px;
   }
   .contact__container {
     display: flex;
@@ -94,13 +101,14 @@
     position: absolute;
     left: 26;
     top: 0;
-    width: 233px;
+    width: 30%;
     display: flex;
   }
   .contact__title {
     line-height: normal;
-    margin-bottom: 20px;
     text-align: left;
+    line-height: 267%;
+    margin: 0;
   }
   .contact__text {
     font-size: 14px;
@@ -111,16 +119,12 @@
     gap: 6px;
   }
   .form-contact__input {
-    width: 283px;
-    height: 50px;
+    padding: 16px 0 16px 24px;
     gap: 6px;
-
     font-size: 12px;
-    padding-left: 24px;
   }
   .form-contact__button {
-    width: 145px;
-    height: 50px;
+    padding: 16px 40px 16px 40px;
     font-size: 13px;
     display: flex;
     justify-content: center;
@@ -130,76 +134,78 @@
 }
 @media (min-width: 992px) {
   .contact {
-    padding-bottom: 194px;
+    padding-top: 142px;
+    padding-bottom: 157px;
   }
+
   .contact__title {
     font-size: 36px;
     margin-left: 14px;
-    margin-bottom: 30px;
+    line-height: 222%;
+    margin-bottom: 3px;
   }
   .contact__text {
     font-size: 16px;
     margin-bottom: 34px;
   }
   .contact__body {
-    max-width: 527px;
+    max-width: 558px;
   }
   .contact__photo {
     left: 13;
     top: 0;
-    width: 312px;
+    width: 27%;
   }
   .contact__form {
     gap: 14px;
   }
   .form-contact__input {
-    width: 323px;
-    height: 60px;
     font-size: 14px;
-    padding-left: 38px;
+    padding: 20px 0 20px 37px;
+    flex-grow: 1;
   }
   .form-contact__button {
-    width: 193px;
-    height: 60px;
     font-size: 16px;
-    margin: 0;
+    padding: 20px 56px 20px 56px;
   }
 }
 @media (min-width: 1600px) {
   .contact {
-    padding-bottom: 220px;
+    padding-top: 260px;
+    padding-bottom: 133px;
   }
 
   .contact__body {
     min-width: 810px;
   }
   .contact__photo {
-    left: 112;
-    top: 0;
-    width: 477px;
+    left: 113;
+    top: -25;
+    width: 29%;
   }
   .contact__title {
     font-size: 48px;
     margin-left: 0;
     margin-bottom: 37px;
+    line-height: 167%;
   }
   .contact__text {
     font-size: 20px;
     margin-bottom: 52px;
   }
   .contact__form {
+    max-width: 730px;
     gap: 12px;
   }
   .form-contact__input {
-    width: 450px;
-    height: 80px;
+    flex-grow: 1;
+    padding: 28px 0 28px 33px;
     font-size: 16px;
-    padding-left: 33px;
+
     margin: 0;
   }
   .form-contact__button {
-    width: 264px;
-    height: 80px;
-    font-size: 16px;
+    padding: 28px 82px 28px 82px;
+    font-size: 20px;
   }
 }
