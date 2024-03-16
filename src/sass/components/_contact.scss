@@ -15,8 +15,9 @@
 }
 .contact__photo {
   width: 79%;
-  margin-bottom: 38px;
   margin: 0 auto;
+  margin-bottom: 38px;
+  
 }
 .contact__text {
   font-weight: 400;
@@ -85,7 +86,7 @@
 @media (min-width: 767px) {
   .contact {
     padding-top: 94px;
-    padding-bottom: 140px;
+    padding-bottom: 112px;
   }
   .contact__container {
     display: flex;
@@ -105,8 +106,9 @@
   }
   .contact__title {
     line-height: normal;
-    margin-bottom: 20px;
     text-align: left;
+    line-height: 267%;
+    margin: 0;
   }
   .contact__text {
     font-size: 14px;
@@ -133,13 +135,14 @@
 @media (min-width: 992px) {
   .contact {
     padding-top: 142px;
-    padding-bottom: 194px;
+    padding-bottom: 157px;
   }
 
   .contact__title {
     font-size: 36px;
     margin-left: 14px;
-    margin-bottom: 30px;
+    line-height: 222%;
+    margin-bottom: 3px;
   }
   .contact__text {
     font-size: 16px;
@@ -151,7 +154,7 @@
   .contact__photo {
     left: 13;
     top: 0;
-    width: 31%;
+    width: 27%;
   }
   .contact__form {
     gap: 14px;
@@ -169,7 +172,7 @@
 @media (min-width: 1600px) {
   .contact {
     padding-top: 260px;
-    padding-bottom: 220px;
+    padding-bottom: 133px;
   }
 
   .contact__body {
@@ -177,13 +180,14 @@
   }
   .contact__photo {
     left: 113;
-    top: 0;
-    width: 29.8%;
+    top: -25;
+    width: 29%;
   }
   .contact__title {
     font-size: 48px;
     margin-left: 0;
     margin-bottom: 37px;
+    line-height: 167%;
   }
   .contact__text {
     font-size: 20px;
