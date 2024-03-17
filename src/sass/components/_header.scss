@@ -50,6 +50,12 @@
     font-size: 30px;
   }
 }
+@media (min-width: 767px) {
+  .heder__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 @media (min-width: 992px) {
   .heder__container {
     padding: 40px 30px;

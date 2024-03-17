@@ -1,22 +1,27 @@
 .pricing {
   padding-top: 84px;
+  overflow: hidden;
 }
 .pricing__title {
   text-align: center;
   line-height: 333%;
+  overflow: hidden;
 }
 .pricing__services {
   display: flex;
   flex-direction: column;
   gap: 65px;
+  overflow: hidden;
 }
 .service {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 .service__photo {
   margin-bottom: 11px;
+  overflow: hidden;
 }
 
 .service__title {
@@ -25,11 +30,13 @@
   line-height: 156%;
   text-align: center;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 .service__text {
   margin-bottom: 33px;
   font-size: 13px;
   text-align: center;
+  overflow: hidden;
 }
 .service__number {
   display: flex;
@@ -38,17 +45,20 @@
   padding: 5px 15px;
   border-radius: 5px;
   background-color: $colorBackgroundSecondary;
+  overflow: hidden;
 }
 .service__number-title {
   font-size: 18px;
   color: $colorButtonPrimary;
   font-weight: 400;
+  overflow: hidden;
 }
 .service__number-text {
   padding-top: 2px;
   font-size: 14px;
   color: $colorTextFortiary;
   font-weight: 400;
+  overflow: hidden;
 }
 @media (min-width: 575px) {
   .pricing {

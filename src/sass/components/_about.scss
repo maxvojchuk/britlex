@@ -1,138 +1,143 @@
 .about {
-    padding-top: 50px;
+  padding-top: 50px;
+  overflow: hidden;
 }
 .about__title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 333%;
-    color: $colorTextSecondary;
-    text-align: center;
-    margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 333%;
+  color: $colorTextSecondary;
+  text-align: center;
+  margin-bottom: 24px;
+  overflow: hidden;
 }
 .about__photo {
-    margin-bottom: 23px;
+  margin-bottom: 23px;
+  overflow: hidden;
 }
 .about__paragraf {
-    font-size: 13px;
-    text-align: center;
-    color: $colorTextPrimary;
+  font-size: 13px;
+  text-align: center;
+  color: $colorTextPrimary;
+  overflow: hidden;
 }
 .statistic__people {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 333%;
-    color: $colorTextTertiary;
-    text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 333%;
+  color: $colorTextTertiary;
+  text-align: center;
+  overflow: hidden;
 }
 .statistic__text {
-    font-size: 15px;
-    color: $colorTextPrimary;
-    text-align: center;
+  font-size: 15px;
+  color: $colorTextPrimary;
+  text-align: center;
+  overflow: hidden;
 }
-@media (min-width:575px) {
-    .about {
-        padding-top: 84px;
-    }
-    .about__title {
-        font-size: 30px;
-        line-height: 267%;
-    }
-    .about__img {
-        max-width: 352px;
-        max-height: 352px;
-        margin: 0 auto;
-    }
-    .about__statistics {
-        display: flex;
-        gap: 120px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
+@media (min-width: 575px) {
+  .about {
+    padding-top: 84px;
+  }
+  .about__title {
+    font-size: 30px;
+    line-height: 267%;
+  }
+  .about__img {
+    max-width: 352px;
+    max-height: 352px;
+    margin: 0 auto;
+  }
+  .about__statistics {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
-@media (min-width:767px) {
-    .about {
-        padding-top: 52px;
-    }
-    .about__title {
-        font-size: 30px;
-        line-height: 267%;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .about__paragraf {
-        font-size: 14px;
-        text-align: left;
-        max-width: 321px;
-    }
-    .container__about {
-        position: relative;
-    }
-    .about__img {
-        position: absolute;
-        right: 30;
-        top: 2;
-        width: 31%;
-    }
-    .about__statistics {
-        gap: 50px;
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-    .statistic__people {
-        font-size: 22px;
-        line-height: 364%;
-    }
-    .statistic__text {
-        font-size: 13px;
-    }
+@media (min-width: 767px) {
+  .about {
+    padding-top: 52px;
+  }
+  .about__title {
+    font-size: 30px;
+    line-height: 267%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .about__paragraf {
+    font-size: 14px;
+    text-align: left;
+    max-width: 321px;
+  }
+  .container__about {
+    position: relative;
+  }
+  .about__img {
+    position: absolute;
+    right: 30;
+    top: 2;
+    width: 31%;
+  }
+  .about__statistics {
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .statistic__people {
+    font-size: 22px;
+    line-height: 364%;
+  }
+  .statistic__text {
+    font-size: 13px;
+  }
 }
-@media (min-width:992px) {
-    .about {
-        padding-top: 106px;
-    }
-    .about__title {
-        font-size: 36px;
-        line-height: 222%;
-    }
-    .about__paragraf {
-        font-size: 16px;
-        max-width: 530px;
-        margin-bottom: 45px;
-    }
-    .about__statistics {
-        gap: 60px;
-    }
-    .statistic__people {
-        font-size: 30px;
-        line-height: 267%
-    }
-    .statistic__text {
-        font-size: 16px;
-    }
+@media (min-width: 992px) {
+  .about {
+    padding-top: 106px;
+  }
+  .about__title {
+    font-size: 36px;
+    line-height: 222%;
+  }
+  .about__paragraf {
+    font-size: 16px;
+    max-width: 530px;
+    margin-bottom: 45px;
+  }
+  .about__statistics {
+    gap: 60px;
+  }
+  .statistic__people {
+    font-size: 30px;
+    line-height: 267%;
+  }
+  .statistic__text {
+    font-size: 16px;
+  }
 }
-@media (min-width:1370px) {
-    .about {
-        padding-top: 282px;
-    }
-    .about__title {
-        font-size: 48px;
-        line-height: 167%;
-    }
-    .about__paragraf {
-        font-size: 20px;
-        max-width: 625px;
-        margin-bottom: 68px;
-    }
-    .about__statistics {
-        gap: 140px;
-    }
-    .statistic__people {
-        font-size: 48px;
-        line-height: 167%;
-    }
-    .statistic__text {
-        font-size: 20px;
-    }
+@media (min-width: 1370px) {
+  .about {
+    padding-top: 282px;
+  }
+  .about__title {
+    font-size: 48px;
+    line-height: 167%;
+  }
+  .about__paragraf {
+    font-size: 20px;
+    max-width: 625px;
+    margin-bottom: 68px;
+  }
+  .about__statistics {
+    gap: 140px;
+  }
+  .statistic__people {
+    font-size: 48px;
+    line-height: 167%;
+  }
+  .statistic__text {
+    font-size: 20px;
+  }
 }

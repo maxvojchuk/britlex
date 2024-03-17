@@ -1,11 +1,15 @@
 .hero {
   padding-top: 36px;
 }
+.hero__poto {
+  overflow: hidden;
+}
 .container__hero {
   display: flex;
   flex-direction: column;
 }
 .hero__content {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;

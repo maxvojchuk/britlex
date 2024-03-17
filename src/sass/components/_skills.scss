@@ -3,6 +3,7 @@
 // }
 .skills {
   padding-top: 51px;
+  overflow: hidden;
 }
 .skills__title {
   font-weight: 600;
@@ -10,12 +11,14 @@
   line-height: 333%;
   color: $colorTextSecondary;
   text-align: center;
+  overflow: hidden;
 }
 .skill {
   background-color: $colorBackgraundPrimary;
   border-radius: 10px;
   padding-left: 16px;
   padding-right: 16px;
+  overflow: hidden;
 }
 
 .skill__title {
@@ -24,16 +27,20 @@
   font-size: 18px;
   line-height: 444%;
   color: $colorButtonPrimary;
+  overflow: hidden;
 }
 .skill__text {
   font-size: 13px;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 .skill__text--first {
   margin-bottom: 10px;
+  overflow: hidden;
 }
 .skill__photo {
   margin-bottom: 10px;
+  overflow: hidden;
 }
 .skill__button {
   font-weight: 500;
@@ -41,10 +48,12 @@
   border-radius: 5px;
   margin-bottom: 44px;
   color: $colorTextButton;
+  overflow: hidden;
 }
 .skills__blocks {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   gap: 21px;
 }
 @media (min-width: 575px) {

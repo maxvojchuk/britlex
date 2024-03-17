@@ -1,34 +1,39 @@
 .contact {
   padding-top: 72px;
   padding-bottom: 57px;
+  overflow: hidden;
 }
 .contact__container {
   padding-inline: 20px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  overflow: hidden;
 }
 .contact__title {
   text-align: center;
   line-height: 333%;
   margin-bottom: 38px;
+  overflow: hidden;
 }
 .contact__photo {
   width: 79%;
   margin: 0 auto;
   margin-bottom: 38px;
-  
+  overflow: hidden;
 }
 .contact__text {
   font-weight: 400;
   font-size: 14px;
   text-align: center;
   margin-bottom: 31px;
+  overflow: hidden;
 }
 .contact__form {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  overflow: hidden;
 }
 .form-contact__input {
   border: 1px solid $colorTextPrimary;
@@ -39,12 +44,14 @@
   margin-bottom: 17px;
   font-size: 12px;
   flex-grow: 1;
+  overflow: hidden;
 }
 .form-contact__button {
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 5px;
   font-size: 14px;
+  overflow: hidden;
 }
 @media (min-width: 575px) {
   .contact {
