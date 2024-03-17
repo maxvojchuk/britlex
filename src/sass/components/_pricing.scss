@@ -57,9 +57,7 @@
   .pricing__services {
     gap: 70px;
   }
-  .service {
-    align-items: baseline;
-  }
+
   .pricing__title {
     font-size: 30px;
     line-height: 267%;
@@ -97,6 +95,9 @@
 }
 
 @media (min-width: 767px) {
+  .service {
+    align-items: baseline;
+  }
   .pricing {
     padding-top: 93px;
   }
